@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --ted-red: #E60026;
+  --ted-gray: #F8F9FA;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: white;
+  color: #111827;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.font-playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+/* Add this to your Hero text classes */
+.antialiased-fix {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translateZ(0); /* Forces a new layer without blurring */
+  backface-visibility: hidden;
+  perspective: 1000;
+}
