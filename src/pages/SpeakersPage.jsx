@@ -6,8 +6,8 @@ import s2 from "../assets/images/2.jpg";
 import s3 from "../assets/images/3.jpg";
 import s4 from "../assets/images/4.jpg";
 import s5 from "../assets/images/about img.avif";
-import s7 from "../assets/images/hero img 1.avif";
-import s8 from "../assets/images/hero img 2.avif";
+import s7 from "../assets/images/hero1.avif";
+import s8 from "../assets/images/hero2.avif";
 
 const Speakers = () => {
   const [selectedSpeaker, setSelectedSpeaker] = useState(null);

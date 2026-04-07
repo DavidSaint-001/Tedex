@@ -1,7 +1,7 @@
 import s1 from "../assets/images/1.jpg";
 import s2 from "../assets/images/2.jpg";
 import s3 from "../assets/images/3.jpg";
-import heroImg from "../assets/images/hero img 1.avif";
+import heroImg from "../assets/images/hero1.avif";
 
 export const eventsData = [
   {

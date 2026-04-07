@@ -2,9 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import * as THREE from "three";
 import { AnimatePresence, motion } from "framer-motion";
-import img1 from "../assets/images/hero img 1 (1).avif";
-import img2 from "../assets/images/hero img 2 (1).avif";
-import img3 from "../assets/images/hero img 3 (1).avif";
+import img1 from "../assets/images/hero1.avif";
+import img2 from "../assets/images/hero2.avif";
+import img3 from "../assets/images/hero3.avif";
 
 const EVENT_DATE = new Date("2026-04-26T09:00:00");
 

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { MapPin, Clock, Play, Ticket, ArrowRight } from "lucide-react";
-import img from "../assets/images/hero img 2 (1).avif";
+import img from "../assets/images/hero2.avif";
 
 const UpcomingEvent = () => {
   // CONFIGURATION
@@ -43,7 +43,7 @@ const UpcomingEvent = () => {
             <img 
               src={img} 
               alt="TEDx Stage Setup" 
-              className="absolute inset-0 w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-1000 scale-105 group-hover:scale-100"
+              className="absolute inset-0 w-full h-full object-cover  "
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent lg:bg-gradient-to-r lg:from-black/40 lg:to-transparent" />
             
