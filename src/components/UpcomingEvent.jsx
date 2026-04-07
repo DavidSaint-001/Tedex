@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { MapPin, Clock, Play, Ticket, ArrowRight } from "lucide-react";
-import img from "../assets/images/hero img 2.avif";
+import img from "../assets/images/hero img 2 (1).avif";
 
 const UpcomingEvent = () => {
   // CONFIGURATION
