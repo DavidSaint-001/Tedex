@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { MapPin, Clock, Play, Ticket, ArrowRight } from "lucide-react";
 import img from "../assets/images/hero img 2.avif";
@@ -110,9 +111,9 @@ const UpcomingEvent = () => {
                   </a>
                 )}
                 
-                <button className="flex items-center gap-2 text-white/40 hover:text-[#eb0028] font-black text-xs tracking-widest uppercase transition-all group">
+                <Link to="/about" className="flex items-center gap-2 text-white/40 hover:text-[#eb0028] font-black text-xs tracking-widest uppercase transition-all group">
                   Learn More <ArrowRight size={14} className="group-hover:translate-x-2 transition-transform" />
-                </button>
+                </Link>
               </div>
             </motion.div>
 
