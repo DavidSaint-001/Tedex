@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { MapPin, Clock, Play, Ticket, ArrowRight } from "lucide-react";
-import img from "../assets/images/hero2.avif";
+import img from "../assets/images/event.jpg";
 
 const UpcomingEvent = () => {
   // CONFIGURATION
@@ -83,7 +83,7 @@ const UpcomingEvent = () => {
               </div>
 
               <h2 className="text-white text-5xl md:text-7xl font-black tracking-tighter leading-[0.9] mb-8">
-                {isPast ? "IDEAS IN \nRETROSPECT" : "Shaping  Tomorrow"}
+                {isPast ? "IDEAS IN \nRETROSPECT" : "SHAPES"}
               </h2>
 
               <p className="text-zinc-400 text-sm md:text-base max-w-md mb-10 leading-relaxed">

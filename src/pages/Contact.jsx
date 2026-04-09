@@ -40,12 +40,12 @@ const Contact = () => {
       icon: Phone,
       label: 'Office Line',
       value: '+234 7066112211',
-      href: 'tel:+2349027086472'
+      href: 'tel:+2347066112211'
     }
   ];
 
   const socials = [
-    { icon: Instagram, href: '#ytyt', label: 'Instagram' },
+    { icon: Instagram, href: 'https://www.instagram.com/tedxokumagbaave/', label: 'Instagram' },
     { icon: Linkedin, href: '#', label: 'LinkedIn' },
     { icon: Twitter, href: '#', label: 'Twitter' },
   ];
