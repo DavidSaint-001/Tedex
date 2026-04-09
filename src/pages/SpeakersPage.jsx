@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUpRight, History, X, Play, Instagram, Twitter, Linkedin } from "lucide-react";
-import s1 from "../assets/images/1.jpg";
+import s1 from "../assets/images/hero3.avif";
 import s2 from "../assets/images/2.jpg";
 import s3 from "../assets/images/3.jpg";
 import s4 from "../assets/images/4.jpg";
@@ -22,8 +22,8 @@ const Speakers = () => {
 
   const speakers = [
     {
-      name: "Dr. Ovie Benson",
-      role: "Tech Ethicist",
+      name: "Erigga",
+      role: "musician",
       topic: "AI in the Delta: Our New Frontier",
       bio: "Dr. Ovie is a pioneer in ethical AI deployment in emerging markets, focusing on how communal values in the Niger Delta can inform global machine learning bias protocols.",
       img: s8,

@@ -39,13 +39,13 @@ const Contact = () => {
     {
       icon: Phone,
       label: 'Office Line',
-      value: '+234 902 708 6472',
+      value: '+234 7066112211',
       href: 'tel:+2349027086472'
     }
   ];
 
   const socials = [
-    { icon: Instagram, href: '#', label: 'Instagram' },
+    { icon: Instagram, href: '#ytyt', label: 'Instagram' },
     { icon: Linkedin, href: '#', label: 'LinkedIn' },
     { icon: Twitter, href: '#', label: 'Twitter' },
   ];

@@ -2,7 +2,7 @@ import useCountdown from "../hooks/useCountdown";
 
 const Countdown = () => {
   const { days, hours, minutes, seconds } = useCountdown(
-    "2026-04-30T09:00:00"
+    "2026-04-26T09:00:00"
   );
 
   return (
