@@ -108,7 +108,7 @@ const About = () => {
           <motion.div {...fadeIn}>
             <div className="flex items-center justify-center gap-4 mb-8">
               <span className="w-8 md:w-12 h-[1px] bg-white/40"></span>
-              <span className="text-[10px] md:text-[12px] font-black tracking-[0.5em] uppercase">2026 Theme: Shaping Tomorrow</span>
+              <span className="text-[10px] md:text-[12px] font-black tracking-[0.5em] uppercase">2026 Theme: SHAPES</span>
               <span className="w-8 md:w-12 h-[1px] bg-white/40"></span>
             </div>
             

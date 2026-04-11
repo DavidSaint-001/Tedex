@@ -1,13 +1,13 @@
 import s1 from "../assets/images/1.jpg";
 import s2 from "../assets/images/2.jpg";
 import s3 from "../assets/images/3.jpg";
-import heroImg from "../assets/images/hero1.avif";
+import heroImg from "../assets/images/event.jpg";
 
 export const eventsData = [
   {
     id: "2026",
-    theme: "The Future Defined",
-    date: "March 15, 2026",
+    theme: "SHAPES",
+    date: "April 26, 2026",
     venue: "Main Auditorium, Okumagba Ave",
     description: "Our flagship 2026 session exploring the intersection of technology and human intuition. Join us for a day of groundbreaking ideas.",
     img: heroImg,

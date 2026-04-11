@@ -2,11 +2,9 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUpRight, History, X, Play, Instagram, Twitter, Linkedin } from "lucide-react";
 import s1 from "../assets/images/hero3.avif";
-import s2 from "../assets/images/2.jpg";
-import s3 from "../assets/images/3.jpg";
-import s4 from "../assets/images/4.jpg";
-import s5 from "../assets/images/about img.avif";
-import s7 from "../assets/images/hero1.avif";
+import s2 from "../assets/images/paddy iyamu.avif";
+import s3 from "../assets/images/nichole.avif";
+import s4 from "../assets/images/mr ben.avif";
 import s8 from "../assets/images/hero2.avif";
 
 const Speakers = () => {
@@ -24,20 +22,20 @@ const Speakers = () => {
     {
       name: "Erigga",
       role: "musician",
-      topic: "AI in the Delta: Our New Frontier",
-      bio: "Dr. Ovie is a pioneer in ethical AI deployment in emerging markets, focusing on how communal values in the Niger Delta can inform global machine learning bias protocols.",
+      topic: "How environment shapes creativity",
+      bio: "Erigga is a Nigerian rapper from Warri known for his street storytelling and Pidgin English style, often called the King of the South.",  
       img: s8,
       isPast: true,
       year: "2024",
       socials: { ig: "#", x: "#", li: "#" },
       videoUrl: "#"
     },
-    // ... Repeat this structure for your other images (s1, s2, etc.)
+   
     {
-      name: "Sarah Edema",
+      name: "Frances Ayanrouh",
       role: "Urban Planner",
-      topic: "Redesigning Okumagba Ave",
-      bio: "An award-winning architect dedicated to sustainable urban renewal. Sarah's vision for Okumagba Ave integrates green spaces with commercial efficiency.",
+      topic: "Women in entrepreneurship",
+      bio: "Frances Ayanrouh is a passionate speaker and changemaker known for her work in empowering communities and driving meaningful conversations around growth, leadership, and impact.",
       img: s1,
       isPast: true,
       year: "2023",
@@ -45,56 +43,35 @@ const Speakers = () => {
       videoUrl: "#"
     },
     {
-      name: "Future Voice",
+      name: "Paddy Iyamu",
       role: "2026 Keynote",
-      topic: "The Architecture of Hope",
-      bio: "This keynote will explore the intersection of resilience and design in the upcoming 2026 session.",
+      topic: "Leadership through service and discipline",
+      bio: "Paddy Iyamu is a visionary leader and creative entrepreneur known for his work in community development and youth empowerment, inspiring others through innovation, leadership, and impact-driven initiatives.",
       img: s2,
-      isPast: false,
+      isPast: true,
       year: "2026",
       socials: { ig: "#", x: "#", li: "#" }
     },
     {
-      name: "Future Voice",
+      name: "Nicole Yembra",
       role: "2026 Keynote",
-      topic: "The Architecture of Hope",
-      bio: "This keynote will explore the intersection of resilience and design in the upcoming 2026 session.",
+      topic: "Building sustainable African businesses",
+      bio: "Nicole Yembra is a dynamic speaker and creative professional known for her work in personal development and community impact, inspiring young people to embrace growth, innovation, and purpose.",
       img: s3,
-      isPast: false,
+      isPast: true,
       year: "2026",
       socials: { ig: "#", x: "#", li: "#" }
     },
     {
-      name: "Future Voice",
+      name: "Ben Igbakpa",
       role: "2026 Keynote",
       topic: "The Architecture of Hope",
-      bio: "This keynote will explore the intersection of resilience and design in the upcoming 2026 session.",
+      bio: " mr Ben Igbakpa is a Nigerian leader and public servant known for his contributions to governance and community development, with a strong focus on empowering people and driving sustainable progress.",
       img: s4,
-      isPast: false,
+      isPast: true,
       year: "2026",
       socials: { ig: "#", x: "#", li: "#" }
     },
-    {
-      name: "Future Voice",
-      role: "2026 Keynote",
-      topic: "The Architecture of Hope",
-      bio: "This keynote will explore the intersection of resilience and design in the upcoming 2026 session.",
-      img: s5,
-      isPast: false,
-      year: "2026",
-      socials: { ig: "#", x: "#", li: "#" }
-    },
-    {
-      name: "Future Voice",
-      role: "2026 Keynote",
-      topic: "The Architecture of Hope",
-      bio: "This keynote will explore the intersection of resilience and design in the upcoming 2026 session.",
-      img: s7,
-      isPast: false,
-      year: "2026",
-      socials: { ig: "#", x: "#", li: "#" }
-    },
-    
   ];
 
   return (
