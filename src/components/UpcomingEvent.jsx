@@ -6,7 +6,7 @@ import img from "../assets/images/event.jpg";
 
 const UpcomingEvent = () => {
   // CONFIGURATION
-  const EVENT_DATE = new Date("2026-04-26T09:00:00");
+  const EVENT_DATE = new Date("2026-04-27T09:00:00");
   const TICKET_URL = "https://tix.africa/discover/tedxokumagba";
   const HIGHLIGHTS_URL = "https://youtube.com/@tedx"; 
 

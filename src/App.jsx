@@ -14,6 +14,7 @@ import Events from "./pages/Events";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import SpeakersPage from "./pages/SpeakersPage";
+import Team from "./pages/Team"
 
 // --- LAYOUT WRAPPER ---
 // This ensures Navbar and Footer are ALWAYS present
@@ -68,6 +69,8 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/speakers" element={<SpeakersPage />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/team" element={<Team />} />
+
               
               {/* Fallback for pages you haven't made yet */}
               <Route path="#" element={

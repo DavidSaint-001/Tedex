@@ -1,11 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowUpRight, History, X, Play, Instagram, Twitter, Linkedin } from "lucide-react";
-import s1 from "../assets/images/hero3.avif";
+import s1 from "../assets/images/erigga.avif";
 import s2 from "../assets/images/paddy iyamu.avif";
 import s3 from "../assets/images/nichole.avif";
 import s4 from "../assets/images/mr ben.avif";
-import s8 from "../assets/images/hero2.avif";
+import s8 from "../assets/images/frances anyroh.avif";
+import s9 from "../assets/images/tobore adakaraza.avif";
+import s10 from "../assets/images/omawumi ogbe.avif";
+import s11 from "../assets/images/joel amawhe.avif";
+
 
 const Speakers = () => {
   const [selectedSpeaker, setSelectedSpeaker] = useState(null);
@@ -24,7 +28,7 @@ const Speakers = () => {
       role: "musician",
       topic: "How environment shapes creativity",
       bio: "Erigga is a Nigerian rapper from Warri known for his street storytelling and Pidgin English style, often called the King of the South.",  
-      img: s8,
+      img: s1,
       isPast: true,
       year: "2024",
       socials: { ig: "#", x: "#", li: "#" },
@@ -36,7 +40,7 @@ const Speakers = () => {
       role: "Urban Planner",
       topic: "Women in entrepreneurship",
       bio: "Frances Ayanrouh is a passionate speaker and changemaker known for her work in empowering communities and driving meaningful conversations around growth, leadership, and impact.",
-      img: s1,
+      img: s8,
       isPast: true,
       year: "2023",
       socials: { ig: "#", x: "#", li: "#" },
@@ -72,6 +76,37 @@ const Speakers = () => {
       year: "2026",
       socials: { ig: "#", x: "#", li: "#" }
     },
+    {
+      name: "Tobore Adakaraza",
+      role: "2026 Keynote",
+      topic: "The Architecture of Hope",
+      bio: "Tobore Adakaraza is a Nigerian leader and public servant known for his contributions to governance and community development, with a strong focus on empowering people and driving sustainable progress.",
+      img: s9,
+      isPast: true,
+      year: "2026",
+      socials: { ig: "#", x: "#", li: "#" }
+    },
+    {
+      name: "Omawumi Ogbe",
+      role: "2026 Keynote",
+      topic: "The Architecture of Hope",
+      bio: "Omawumi Ogbe is a Nigerian leader and public servant known for his contributions to governance and community development, with a strong focus on empowering people and driving sustainable progress.",
+      img: s10,
+      isPast: true,
+      year: "2026",
+      socials: { ig: "#", x: "#", li: "#" }
+    },
+    {
+      name: "Joel Amawhe",
+      role: "2026 Keynote",
+      topic: "The Architecture of Hope",
+      bio: "Joel Amawhe is a Nigerian leader and public servant known for his contributions to governance and community development, with a strong focus on empowering people and driving sustainable progress.",
+      img: s11,
+      isPast: true,
+      year: "2026",
+      socials: { ig: "#", x: "#", li: "#" }
+    },
+
   ];
 
   return (
